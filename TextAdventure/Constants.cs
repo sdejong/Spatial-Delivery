@@ -36,21 +36,17 @@ namespace TextAdventure
         private List<Item> generateItemList()
         {
             List<Item> itemList = new List<Item>();
-            itemList.Add(new Item("PREPAID PHONE CARD", "You don't understand most of the writing on it, but it clearly says $50 dollars on the bottom.", 17, -1, -1));
-            itemList.Add(new Item("INTERDIMENSIONAL GOGGLES", "Kind of look like the glasses Jeff Goldblum wears. Very fashionable.", 19, 20, 29));
-            itemList.Add(new Item("UNIVERSAL PHONE BOOK", "More like a universal door stop, am I right?", 19, -1, -1));
-            itemList.Add(new Item("TELEPORTATION MACHINE", "It's not even a DeLorean.", 43, -1, -1));
-            itemList.Add(new Item("SPACE-TIME LIE DETECTOR", "Doesn't work with lies from different timelines.", 48, -1, -1));
-            itemList.Add(new Item("NOKIA 3310", "This Finnish classic works in all dimensions.", 55, -1, 57));
+            itemList.Add(new Item("PREPAID PHONE CARD", "You don't understand most of the writing on it, but it clearly says $50 dollars on the bottom.", 17, -1, -1, -1));
+            itemList.Add(new Item("INTERDIMENSIONAL GOGGLES", "Kind of look like the glasses Jeff Goldblum wears. Very fashionable.", 19, 20, 29, 57));
+            itemList.Add(new Item("UNIVERSAL PHONE BOOK", "More like a universal door stop, am I right?", 19, -1, -1, -1));
+            itemList.Add(new Item("TELEPORTATION MACHINE", "It's not even a DeLorean.", 43, -1, -1, -1));
+            itemList.Add(new Item("SPACE-TIME LIE DETECTOR", "Doesn't work with lies from different timelines.", 48, -1, -1, -1));
+            itemList.Add(new Item("NOKIA 3310", "This Finnish classic works in all dimensions.", 55, -1, -1, -1));
             return itemList;
         }
 
         private List<Question> generateQuestionList() {
             List<Question> questionList = new List<Question>();
-            /*questionList.Add(new Question("It's a normal Thursday, and you're on the train, heading to class. As you flip through Instagram, on your phone a new notification appears. You don't recognize the number. In fact, this doesn't even really look like a phone number.", "Open the message", "Ignore it", 1, 2));
-            questionList.Add(new Question("vraag2", "button1", "button2", 2, 3));
-            questionList.Add(new Question("optie2vanvraag0", "button1", "button2", 2, 3));
-            questionList.Add(new Question("endgame text", "Back to main menu", "", -1, 0)); */
             questionList.Add(new Question("It's a normal Thursday, and you're on the train, heading to class. As you flip through Instagram, on your phone a new notification appears. You don't recognize the number. In fact, this doesn't even really look like a phone number.", "Open the message", "Ignore it", 1, 2));
             questionList.Add(new Question("\"□□□□□□□□□□□ □□ □□□□□□ □□□ □□□□□□□ □□□ ... □□□ ... □□□□\"", "\"What? Your message is messed up!\"", "\"You have the wrong number. Stop texting me.\"", 3, 2));
             questionList.Add(new Question("More and more notifications appear, and they're all from this mystery number. The longer you ignore them, the faster they pop up.", "Open the message", "Ignore it", 1, 2));

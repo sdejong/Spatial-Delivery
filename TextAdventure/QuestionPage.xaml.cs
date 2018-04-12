@@ -40,7 +40,7 @@ namespace TextAdventure
             Item missingItem = null;
             //await DisplayAlert("answers", String.Join(", ", answers), "continue");
             foreach(Item i in Constants.getItemList()) {
-                if(i.sceneNeeded == questionNumber && !answers.Contains(i.sceneFound) && !answers.Contains(i.sceneFound2)) {
+                if((i.sceneNeeded == questionNumber || i.sceneNeeded2 == questionNumber) && !answers.Contains(i.sceneFound) && !answers.Contains(i.sceneFound2)) {
                     option2Available = false;
                     missingItem = i;
                     break;
