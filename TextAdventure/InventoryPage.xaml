@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TextAdventure.InventoryPage" BackgroundColor="#bbbbbb">
+    <ContentPage.Content>
+      <ScrollView>
+          <StackLayout VerticalOptions="FillAndExpand"
+                     HorizontalOptions="FillAndExpand"
+                     Orientation="Vertical"
+                     Padding = "15">
+
+          <Label Text="{Binding Label1}"  x:Name="Label1"  Style="{StaticResource LabelStyle}" FontSize="24"/>
+          <Label Text="{Binding Label2}"  x:Name="Label2"  Style="{StaticResource LabelStyle}" />
+          <Label Text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  x:Name="LabelX1" Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />            
+          <Label Text="{Binding Label3}"  x:Name="Label3"  Style="{StaticResource LabelStyle}" FontSize="24"/>
+          <Label Text="{Binding Label4}"  x:Name="Label4"  Style="{StaticResource LabelStyle}" />
+          <Label Text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  x:Name="LabelX2" Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />                
+          <Label Text="{Binding Label5}"  x:Name="Label5"  Style="{StaticResource LabelStyle}" FontSize="24"/>
+          <Label Text="{Binding Label6}"  x:Name="Label6"  Style="{StaticResource LabelStyle}" />
+          <Label Text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  x:Name="LabelX3" Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />            
+          <Label Text="{Binding Label7}"  x:Name="Label7"  Style="{StaticResource LabelStyle}" FontSize="24"/>
+          <Label Text="{Binding Label8}"  x:Name="Label8"  Style="{StaticResource LabelStyle}" />
+          <Label Text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  x:Name="LabelX4" Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />                 
+          <Label Text="{Binding Label9}"  x:Name="Label9"  Style="{StaticResource LabelStyle}" FontSize="24"/>
+          <Label Text="{Binding Label10}"  x:Name="Label10"  Style="{StaticResource LabelStyle}" />
+          <Label Text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  x:Name="LabelX5" Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />             
+          <Label Text="{Binding Label11}"  x:Name="Label11"  Style="{StaticResource LabelStyle}" FontSize="24"/>
+          <Label Text="{Binding Label12}"  x:Name="Label12"  Style="{StaticResource LabelStyle}" />
+          <Label Text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  x:Name="LabelX6" Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />                 
+          </StackLayout>
+        </ScrollView>        
+    </ContentPage.Content>
+</ContentPage>

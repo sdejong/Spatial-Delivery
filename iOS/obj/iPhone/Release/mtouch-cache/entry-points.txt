@@ -1,0 +1,26 @@
+Function=xamarin_timezone_get_data
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll
+Function=CreateZStream
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=xamarin_get_block_descriptor
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/sanderdejong/Projects/TextAdventure/iOS/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll

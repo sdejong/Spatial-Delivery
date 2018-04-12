@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TextAdventure.QuestionPage" NavigationPage.HasBackButton="False" BackgroundColor="#bbbbbb">
+    <ContentPage.Content>
+      <ScrollView>  
+          <StackLayout VerticalOptions="FillAndExpand"
+                     HorizontalOptions="FillAndExpand"
+                     Orientation="Vertical"
+                     Padding = "15">
+                    
+              <Button x:Name="InventoryButton" Text = "I" Clicked = "InventoryButton_OnClicked" Style="{StaticResource ButtonStyle}" VerticalOptions="End" HorizontalOptions="End"/>   
+              <Label Text="XXXXXXXXXXXXXXXXXXXXXXXXXXX"  Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />
+              <Label Text="{Binding question}"  x:Name="question"  Style="{StaticResource LabelStyle}" />
+              <Label Text="XXXXXXXXXXXXXXXXXXXXXXXXXXX"  Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />      
+              <Button x:Name = "option1" Text="{Binding option1}" Clicked="Option1Button_OnClicked" Style="{StaticResource ButtonStyle}" VerticalOptions="FillAndExpand"/>
+              <Button x:Name = "option2" Text="{Binding option2}" Clicked="Option2Button_OnClicked" Style="{StaticResource ButtonStyle}" VerticalOptions="FillAndExpand"/>
+          </StackLayout>
+      </ScrollView>        
+    </ContentPage.Content>
+</ContentPage>
