@@ -46,7 +46,7 @@ namespace TextAdventure
                 int labelNr = 0;
                 foreach (Item i in Constants.getItemList())
                 {
-                    if (answers.Contains(i.sceneFound))
+                    if (answers.Contains(i.sceneFound) || answers.Contains(i.sceneFound2))
                     {
                         labels[labelNr].Text = i.itemName;
                         labels[labelNr + 1].Text = i.itemText;

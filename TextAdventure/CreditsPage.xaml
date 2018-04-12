@@ -9,7 +9,7 @@
 
           <Label Text="Credits" HorizontalTextAlignment="Center" Style="{StaticResource LabelStyle}" FontSize="34" />
           <Label Text="XXXXXXXXXXXXXXXXXXXXXXXXXXX" Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />            
-          <Label Text="Spatial Delivery was made as an ode to the old school text adventures for the course New Media New Technologies.&#x0a;&#x0a;Narrative: Gabe Webb&#x0a;&#x0a;Design: Romy Koch&#x0a;&#x0a;Programming: Sander de Jong"  x:Name="LabelX6" Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />                 
+          <Label Text="Spatial Delivery was made as an ode to the old school text adventures for the course New Media New Technologies.&#x0a;&#x0a;Narrative    Gabe Webb&#x0a;&#x0a;Design       Romy Koch&#x0a;&#x0a;Programming  Sander de Jong"  x:Name="LabelX6" Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />                 
           <Label Text="XXXXXXXXXXXXXXXXXXXXXXXXXXX" Style="{StaticResource LabelStyle}" HorizontalOptions="Center" />                 
           </StackLayout>
         </ScrollView>        
