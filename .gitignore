@@ -1,6 +1,7 @@
 
 # Created by https://www.gitignore.io/api/visualstudio,xamarinstudio
 
+.DS_Store
 ### XamarinStudio ###
 bin/
 obj/
